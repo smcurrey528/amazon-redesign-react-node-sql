@@ -37,7 +37,7 @@ The full-stack web application will include the Amazon's home page which will in
 ## Wireframes
 
 Priority Matrix:
-https://res.cloudinary.com/div3mompi/image/upload/v1541434083/MVP_PMVP_Priority_Matrix.jpg
+https://i.imgur.com/aLIzhhz.png
 
 Wireframes:
  Home page- https://i.imgur.com/CWmGeeM.png
@@ -46,14 +46,8 @@ Wireframes:
 Tables:
 https://i.imgur.com/nlUbh2Z.jpg
 
-Location Constraints:
-https://res.cloudinary.com/div3mompi/image/upload/v1541432942/Location_Contraints.jpg
-
-ERD Tables:
-https://res.cloudinary.com/div3mompi/image/upload/v1541437548/ERD_tables.jpg
-
 App Structure:
-https://res.cloudinary.com/div3mompi/image/upload/v1541438623/App_Structure.jpg
+https://i.imgur.com/0RKNQ8N.png
 
 
 ## Priority Matrix
