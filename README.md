@@ -60,20 +60,20 @@ https://res.cloudinary.com/div3mompi/image/upload/v1541438623/App_Structure.jpg
 
 In order of priority:
 
-- Pages Layout 10hrs
-- Server setup 10hrs
-- MVC  10hrs
-- Basic Styles 10hrs
-- DB and tables 10hrs
+- Pages Layout 5hrs
+- Server setup 5hrs
+- MVC  5hrs
+- Basic Styles 5hrs
+- DB and tables 5hrs
 -------
-- Total: 50 hours for MVP
+- Total: 30 hours for MVP
 
 - Advanced Styles 5hrs
 - Login 5hrs
 - Shopify 5hrs
 - Shopping Cart 5hrs
 -----------
-- Total: 20 hours for post-MVP
+- Total: 15 hours for post-MVP
 
 
 #### MVP
