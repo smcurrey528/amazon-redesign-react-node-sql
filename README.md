@@ -40,7 +40,8 @@ Priority Matrix:
 https://res.cloudinary.com/div3mompi/image/upload/v1541434083/MVP_PMVP_Priority_Matrix.jpg
 
 Wireframes:
-https://i.imgur.com/CWmGeeM.png
+ Home page- https://i.imgur.com/CWmGeeM.png
+ Single Product page- https://i.imgur.com/euFFU8C.png
 
 Tables:
 https://res.cloudinary.com/div3mompi/image/upload/v1541432951/Tables.jpg
