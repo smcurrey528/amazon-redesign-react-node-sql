@@ -44,7 +44,7 @@ Wireframes:
  Single Product page- https://i.imgur.com/euFFU8C.png
 
 Tables:
-https://res.cloudinary.com/div3mompi/image/upload/v1541432951/Tables.jpg
+https://i.imgur.com/nlUbh2Z.jpg
 
 Location Constraints:
 https://res.cloudinary.com/div3mompi/image/upload/v1541432942/Location_Contraints.jpg
