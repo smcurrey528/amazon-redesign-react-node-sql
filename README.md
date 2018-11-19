@@ -16,16 +16,22 @@ The full-stack web application will include the Amazon's home page which will in
 
 |  Day   | Deliverable          | Status
 |--------|----------------------| ----------|
-|Nov 5th | Project Description  | Complete
-|Nov 5th | Wireframes / Priority Matrix | Complete
-|Nov 6th | Core Application Structure   | Complete
-|Nov 7th | Pseudocode / actual code | Complete
-|Nov 8th | Initial Clickable Model  | Complete
-|Nov 9th | MVP | Complete
-|Nov 10th| MVP | Complete
-|Nov 11th| Post-MVP| Complete
-|Nov 12th| Post-MVP | Complete
-|Nov 13th| Present | Incomplete
+|Nov 19th | Project Description  | Complete
+|Nov 20th | Wireframes / Priority Matrix | Complete
+|Nov 21th | Core Application Structure   | Incomplete
+|Nov 22th | Thanksgiving | Incomplete
+|Nov 23rd | Thanksgiving  | Incomplete
+|Nov 24th| MVP | Incomplete
+|Nov 25th| MVP | Incomplete
+|Nov 26th| MVP| Incomplete
+|Nov 27th| MVP | Incomplete
+|Nov 28th| Post-MVP| Incomplete
+|Nov 29th| Post-MVP | Incomplete
+|Nov 30th| Post-MVP | Incomplete
+|Dec 1st| Post-MVP | Incomplete
+|Dec 2nd| Finalize and Deploy | Incomplete
+|Dec 3rd| Present | Incomplete
+
 
 
 ## Wireframes
@@ -53,20 +59,18 @@ https://res.cloudinary.com/div3mompi/image/upload/v1541438623/App_Structure.jpg
 
 In order of priority:
 
-- Pages Layout - 12 hours
-- Server setup - 4 hours
-- MVC - 12 hours
-- Styles - 4 hours
-- Database - 4 hours
-- Tables - 4 hours
+- Pages Layout 10hrs
+- Server setup 10hrs
+- MVC  10hrs
+- Basic Styles 10hrs
+- DB and tables 10hrs
 -------
-- Total: 40 hours for MVP
+- Total: 50 hours for MVP
 
-- Advanced Styles - 4 hours
-- Auth - 4 hours
-- User login - 4 hours
-- User database - 4 hours
-- Faves - 4 hours
+- Advanced Styles 5hrs
+- Login 5hrs
+- Shopify 5hrs
+- Shopping Cart 5hrs
 -----------
 - Total: 20 hours for post-MVP
 
@@ -138,7 +142,7 @@ render the data and pass it as props
 | DB and Tables | H  | 4hrs |  | 
 | Shopify | M  | 4hrs |   |  
 | E-commerce  | M  | 4hrs |   |  
-| Data Creation  | H | 4hrs | 3hrs  |  3hrs
+| Data Creation  | H | 4hrs |   | 
 | Login| L | 4hrs |  | 
 | Project Management | H | 4hrs |  | 
 
@@ -149,6 +153,7 @@ render the data and pass it as props
 1 Database with 1 table
 
 Table   -  Products
+
 url, url_two, url_three, title, company, review_number, review_one, review_two, review_three, amazon_choice,  prime, price, desc_one, desc_two, desc_three, desc_four , product_dimensions,  item_weight, shipping_weight, question, answer, cust_imgone, cust_imgtwo, cust_imgthree
 
 
