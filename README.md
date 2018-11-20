@@ -85,9 +85,18 @@ In order of priority:
 - Shopify
 - Shopping Cart
 
+### Functional Components
 
+Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
-## Functional Components
+| Component | Description | 
+| --- | :---: |  
+| App | This renders the app and include the API fetch call and other components | 
+| Nav | This renders the header include the nav |
+| Products List| This renders the mapped category list |  
+| Product | This renders the mapped category items individual sections | 
+| Single Products | This renders the single product that the user chooses from the product list |   
+| Shopping Cart | This renders the shopping cart and checkout of the user | 
 
 ### Data Fetch
 
