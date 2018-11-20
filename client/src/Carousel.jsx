@@ -1,6 +1,6 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
-
+import './Carousel.css';
 const items = [
   {
     src: 'https://i.imgur.com/YlFBZwW.png',
@@ -22,6 +22,10 @@ const items = [
   }
 ];
 
-const Carousel = () => <UncontrolledCarousel items={items} />;
+const Carousel = () =>
+<div className="carousel">
+<UncontrolledCarousel items={items} />
+</div>
+;
 
 export default Carousel;

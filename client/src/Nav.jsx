@@ -4,6 +4,7 @@ import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap
 import './Nav.css';
 import MenuBar from './MenuBar';
 import Hello from './Hello';
+import ShoppingCart from './ShoppingCart';
 
 class Nav extends Component {
     constructor(props) {
@@ -55,6 +56,7 @@ class Nav extends Component {
               </label>
             </form>
             </div>
+            <ShoppingCart/>
             <MenuBar/>
             <Hello/>
 
