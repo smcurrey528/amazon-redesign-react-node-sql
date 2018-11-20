@@ -1,0 +1,25 @@
+.yellowbar {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: goldenrod;
+  width: 100%;
+   display: flex;
+    width:100%;
+   justify-content: space-between;
+   align-content: center;
+    flex-direction: row;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid rgb(235, 235, 235);
+
+}
+
+.yellowli {
+  list-style: none;
+  padding-right: 10%;
+  align-content: center;
+}
+
+.rightsideli {
+  display: flex;
+
+}
