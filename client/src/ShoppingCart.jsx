@@ -6,6 +6,9 @@ import {
   cartLocalization,
 } from 'react-shopping-cart';
 import 'font-awesome/css/font-awesome.min.css';
+import Nav from './Nav';
+import './ShoppingCart.css';
+import {AppProvider, Banner} from '@shopify/polaris';
 
 const { getDefaultLocalization } = cartLocalization;
 
@@ -22,7 +25,7 @@ const iPadCaseLocalization = {
 };
 
 
-class ShoppingChart extends Component {
+class ShoppingCart extends Component {
 
   state = {
     products: {},
@@ -124,7 +127,21 @@ class ShoppingChart extends Component {
         getLocalization={getCheckoutButtonLocalization}
       />;
     return (
-      <div className="container">
+      <div>
+
+      <Nav/>
+      <AppProvider>
+      <Banner
+      className="usps"
+  title="USPS has updated their rates"
+  action={{content: 'Learn more'}}
+  status="info"
+  onDismiss={() => {}}
+>
+  <p>Make sure you know how these changes affect your store.</p>
+</Banner>
+</AppProvider>
+      <div className="addtocart">
         <ProductComponent
           {...product}
           checkoutButton={checkoutButtonElement}
@@ -166,10 +183,11 @@ class ShoppingChart extends Component {
           getLocalization={getCartLocalization}
         />
       </div>
+      </div>
     );
   }
 }
 
-export default ShoppingChart;
+export default ShoppingCart;
 
 //use npm package react-shopping-cart

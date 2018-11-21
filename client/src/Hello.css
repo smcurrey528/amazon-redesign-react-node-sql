@@ -10,16 +10,25 @@
     height: 50px;
     padding: 20px;
     border: 1px solid rgb(235, 235, 235);
-
+   font-size: 18px;
 }
 
 .yellowli {
   list-style: none;
-  padding-right: 10%;
+  padding-right: 5%;
   align-content: center;
+  font-size: 18px;
 }
 
 .rightsideli {
-  display: flex;
+display: flex;
 
+}
+
+.yellowli:hover {
+  color: white;
+}
+
+#music {
+  padding-right: 10px;
 }

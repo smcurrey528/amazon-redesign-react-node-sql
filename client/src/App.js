@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Button } from 'reactstrap';
 import ProductList from './ProductList';
 import ProductSingle from './ProductSingle';
+import ShoppingChart from './ShoppingCart';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/products" component={ProductList} />
+            <Route exact path="/shoppingcart" component={ShoppingChart} />
             <Route exact path="/products/:id" component={ProductSingle} />
           </Switch>
          </React.Fragment>

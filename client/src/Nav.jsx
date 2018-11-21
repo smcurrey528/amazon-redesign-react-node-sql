@@ -56,7 +56,7 @@ class Nav extends Component {
               </label>
             </form>
             </div>
-            <ShoppingCart/>
+            <Link to="/shoppingcart"><img className="shopping" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIySURBVGhD7do7aBRRFIfxlaAY0EILBUuJETSFWlkIWmghRIKI2ipImogIFmIpggghKAimDTGQxHRqIaSx0M7GwsYHGgWxUQsfiIL6/YuBy3I2u3PnnrsMzAe/MvfMNbvziq2mpqaee4hnhjc4jtq0gn8dPEZtWm0jMoJa1G0j06hFozgZmEG4ke+41yeLuIQ1KN02/EG4mX7TZqJagrVgv9xHVIdgLdgv5xGVPpMvYC2a22usQ3T6V7AWzu0EKrUR32AtnstTRJ2x2rsDa0AOf7EfSdoNa0gOuoYkTfdb1iBPv7AdSTsFa5inKSRvLT7CGujhMzbBpauwhnq4CLdy3X9Vvvj1Uo77r8oXv17yvv9KdvHrloa8hHUQVSW9+HVrF37DOpCqJpEl/TaewDqIKt5BN6dZPlJqHO0HcQM638fagKxtwReEm3iF9ahV1xBuQo6gdum0GG7iLmpZ+5f8OZadXUDyriPcSA56oEveVnyCNdCLy0bUHuhMZQ314LYRNYDDOAddVzwdQFO3BqHH3ss4g82omtY4C62pF+ia4do+vEf4Of4KvcmPbQxaI1zzLfbCJb2o6/TM/gM7ULad+AlrzQ9wuQ/Tl88aWIh543EL1loFnVCSdxPWsMIjlE0/Y61VcHkddAXWsMIsyjYHa62CvvzJG8Zqb1COomzHYK0lmjUEl3QTp+fq9qG3EZv1glwzJuCa3qIsQP+ZQH8K03m/aqfxAFpzHgfR1NSUrFbrP4crPcxfrBdlAAAAAElFTkSuQmCC"/></Link>
             <MenuBar/>
             <Hello/>
 
