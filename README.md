@@ -18,7 +18,7 @@ The full-stack web application will include the Amazon's home page which will in
 |--------|----------------------| ----------|
 |Nov 19th | Project Description  | Complete
 |Nov 20th | Wireframes / Priority Matrix | Complete
-|Nov 21th | Core Application Structure   | Incomplete
+|Nov 21th | Core Application Structure   | Complete
 |Nov 22th | Thanksgiving | Incomplete
 |Nov 23rd | Thanksgiving  | Incomplete
 |Nov 24th| MVP | Incomplete
@@ -124,21 +124,21 @@ render the data and pass it as props
 
 | Component    | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------ | :------: |  :-----------: | :------------: | :---------: |
-| Home page    | H | 4hrs |  | 
-| Header w/ Links   | H | 4hrs |  | 
+| Home page    | H | 4hrs | 4hrs |   |
+| Header w/ Links   | H | 4hrs | 2hrs |  |
 | Products Components | H | 4hrs |  | 
-| Shopping Cart | H | 4hrs |  | 
+| Shopping Cart | H | 4hrs | 2hrs |  |
 | Checking out | H | 4hrs |  | 
 | Featured Items| H | 4hrs |  | 
 | Your Amazon| H | 4hrs |  | 
 | ProductList | H | 4hrs |  | 
 | ProductList Sticky Footer | H | 4hrs |  | 
 | ProductList Sticky Nav | H | 4hrs |  | 
-| ReactStrap | H | 4hrs |  | 
+| ReactStrap | H | 4hrs | 2hrs  | 
 | Amazon API | L | 4hrs | |  |
 | Form Component | H | 4hrs |  | |
 | Server Setup | H  | 4hrs|  |  |
-| Basic Styles | H  | 4hrs|  | |
+| Basic Styles | H  | 4hrs| 2hrs | |
 | Adv Styles | H  | 4hrs|  |  |
 | Routes | H | 4hrs |  |  |
 | Model | H | 4hrs | | 
