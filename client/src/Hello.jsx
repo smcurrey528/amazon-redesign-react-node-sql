@@ -10,7 +10,7 @@ class Hello extends Component {
          <li className="yellowli"> Prime </li>
          <li className="yellowli"> Video</li>
          <li className="yellowli"> Fresh</li>
-         <li className="yellowli"> Music</li>
+         <li className="yellowli" id="music"> Music</li>
         </ul>
         </div>
       )
