@@ -19,10 +19,10 @@ The full-stack web application will include the Amazon's home page which will in
 |Nov 19th | Project Description  | Complete
 |Nov 20th | Wireframes / Priority Matrix | Complete
 |Nov 21th | Core Application Structure   | Complete
-|Nov 22th | Thanksgiving | Incomplete
-|Nov 23rd | Thanksgiving  | Incomplete
-|Nov 24th| MVP | Incomplete
-|Nov 25th| MVP | Incomplete
+|Nov 22th | Thanksgiving | Complete
+|Nov 23rd | Thanksgiving  | Complete
+|Nov 24th| MVP | Complete
+|Nov 25th| MVP | Complete
 |Nov 26th| MVP| Incomplete
 |Nov 27th| MVP | Incomplete
 |Nov 28th| Post-MVP| Incomplete
@@ -124,7 +124,7 @@ render the data and pass it as props
 
 | Component    | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------ | :------: |  :-----------: | :------------: | :---------: |
-| Home page    | H | 4hrs | 4hrs |   |
+| Home page    | H | 5hrs | 4hrs |   |
 | Header w/ Links   | H | 4hrs | 2hrs |  |
 | Products Components | H | 4hrs |  | 
 | Shopping Cart | H | 4hrs | 2hrs |  |
@@ -141,14 +141,14 @@ render the data and pass it as props
 | Basic Styles | H  | 4hrs| 2hrs | |
 | Adv Styles | H  | 4hrs|  |  |
 | Routes | H | 4hrs |  |  |
-| Model | H | 4hrs | | 
-| Controller | H | 4hrs |  | 
+| Model | H | 4hrs | 2hrs | 2hrs |
+| Controller | H | 4hrs | 2hrs | 2hrs |
 | DB and Tables | H  | 4hrs |  | 
-| Shopify | M  | 4hrs |   |  
+| Shopify | M  | 4hrs |  3hrs |  
 | E-commerce  | M  | 4hrs |   |  
 | Data Creation  | H | 4hrs |   | 
 | Login| L | 4hrs |  | 
-| Project Management | H | 4hrs |  | 
+| Project Management | H | 4hrs | 1hr | 
 
 
 
