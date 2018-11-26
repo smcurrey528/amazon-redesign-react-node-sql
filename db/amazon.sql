@@ -1,4 +1,27 @@
 INSERT INTO products (url, url_two, url_three, title, company, review_number, review_one, review_two, review_three, amazon_choice,  prime, price, desc_one, desc_two, desc_three, desc_four , product_dimensions,  item_weight, shipping_weight, question, answer, cust_imgone, cust_imgtwo, cust_imgthree) VALUES
 (
-
+  'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f91ccb24a2c4048c0de0155e8346dfbc&auto=format&fit=crop&w=1350&q=80',
+  'https://images.unsplash.com/photo-1522780550166-284a0288c8df?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ad81d7fc6027a637ddbb3804d700403e&auto=format&fit=crop&w=800&q=80',
+  'https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1b5625f6fd6feaf34cc3e2a3e28dbf40&auto=format&fit=crop&w=967&q=80',
+  'Echo Dot',
+  'Amazon',
+  '120,393',
+  'Having worked in the electronics retail industry for years now, I have seen scores of Smart devices come and go. Until now, nobody quite got it right. In the Echo Dot, Amazon has created a near perfect blend of hardware and software.',
+  'You need an iphone (and only an iphone) to setup drop-in for an echo dot and an echo on the same wifi. Why? A $700 device to connect two sub-$100 devices to each other through an app that already recognizes, that is ridiculous.',
+  'Whether you just want the weather, latest sports scores or help with a math problem, Alexa will help. We now have 3 in the house and will be adding two more. With a simple $3 subscription to Amazons music service, you can stream almost any music you can think of by simply asking Alexa for it!',
+  'https://netrush.com/wp-content/uploads/2018/05/Amazons-Choice.jpg',
+  'https://pngimage.net/wp-content/uploads/2018/06/prime-png-1.png',
+  '$19.99',
+  'Echo Dot is a voice-controlled speaker that uses Alexa to play music, control smart home devices, make calls, answer questions, set timers and alarms, and more.',
+  'Play music from Amazon Music, Spotify, Pandora, iHeartRadio, TuneIn, and SiriusXM.',
+  'Call or message family and friends hands-free, or drop in from the Alexa App to your Echo device.',
+  'Controls lights, locks, thermostats, and more with compatible connected devices.',
+  '1.3” x 3.3” x 3.3” (32 mm x 84 mm x 84 mm)',
+  '5.7 oz. (163 grams) Actual size and weight may vary by manufacturing process',
+  '1 lb',
+  'What is the difference between dot and echo?',
+  'The Echo has speakers suitable for listening to music on, while the Echo Dot has a speaker that is only good enough for the commands and alarms. If you want to listen to music with the Dot, you will want to connect speakers to it.',
+  'https://images.unsplash.com/photo-1512446387219-99c19f8fe95f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=68d56705b92c9ff7b1c26ea7f62b3442&auto=format&fit=crop&w=1489&q=80',
+  'https://images.unsplash.com/photo-1508160552827-195c99fc90b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=542a54f3fcea9375b6dc7e56d7dc7492&auto=format&fit=crop&w=1050&q=80',
+  'https://images.unsplash.com/photo-1508160371440-9220afde27ca?ixlib=rb-0.3.5&s=f70fb45e4f26d06831205da8e5ff2c83&auto=format&fit=crop&w=1050&q=80'
 );
