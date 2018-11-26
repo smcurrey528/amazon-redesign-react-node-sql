@@ -11,7 +11,9 @@ class Home extends Component {
     return (
          <React.Fragment>
           <Nav/>
+          <div className="controlImages">
          <Carousel />
+         </div>
          <BottomHome/>
          <Footer/>
          </React.Fragment>
