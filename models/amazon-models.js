@@ -77,12 +77,12 @@ amazonModels.update = (products, id) => {
       cust_imgtwo = $23,
       cust_imgthree= $24
     WHERE id = $25
-    RETURNING *products
+    RETURNING *
   `,
   [products.url, products.url_two, products.url_three, products.title, products.company, products.review_number, products.review_one,
   products.review_two, products.review_three, products.amazon_choice, products.prime, products.price, products.desc_one,
   products.desc_two, products.desc_three, products.desc_four, products.product_dimensions, products.item_weight, products.shipping_weight, products.question,
-  products.answer, products.cust_imgone, products.cust_imgtwo, products.cust_imgthree, products.id],
+  products.answer, products.cust_imgone, products.cust_imgtwo, products.cust_imgthree, id],
   );
 };
 
