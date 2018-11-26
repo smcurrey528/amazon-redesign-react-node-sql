@@ -11,6 +11,7 @@
     padding: 20px;
     border: 1px solid rgb(235, 235, 235);
    font-size: 18px;
+   color: white;
 }
 
 .yellowli {
@@ -18,6 +19,7 @@
   padding-right: 5%;
   align-content: center;
   font-size: 18px;
+  color: white;
 }
 
 .rightsideli {
@@ -26,7 +28,7 @@ display: flex;
 }
 
 .yellowli:hover {
-  color: white;
+  color: black;
 }
 
 #music {

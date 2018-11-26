@@ -8,6 +8,7 @@ import ProductList from './ProductList';
 import ProductSingle from './ProductSingle';
 import ShoppingChart from './ShoppingCart';
 import Checkout from './Checkout';
+import YourAmazon from './YourAmazon';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
             <Route exact path="/products" component={ProductList} />
             <Route exact path="/shoppingcart" component={ShoppingChart} />
             <Route exact path="/products/:id" component={ProductSingle} />
+            <Route exact path="/your-amazon" component={YourAmazon} />
             <Route exact path="to/my/checkout" component={Checkout} />
           </Switch>
          </React.Fragment>
