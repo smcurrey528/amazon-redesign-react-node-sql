@@ -51,6 +51,48 @@ class BottomHome extends Component {
              <h4> $ 150.00 </h4>
             </div>
               </div>
+              <div className="holshopping">
+           <img className="holiday" src="https://i.imgur.com/3Fq17A0.png" title="source: imgur.com" />
+           <div className="whitebox">
+
+             <div className="textbox">
+                <h2 className="bold"> Are you ready for the Holidays?</h2>
+                <br/>
+                <div class="vl"></div>
+                <p> We have created a selection of items you will adore </p>
+              </div>
+              </div>
+           </div>
+             <div className="categories">
+              <ul className="textUL">
+               <li className="textcat"> Featured </li>
+               <li className="textcat"> Fashion</li>
+               <li className="textcat"> Food  </li>
+               <li className="textcat"> Decoration </li>
+              </ul>
+           </div>
+             <div className="sectionProduct">
+            <div className="productBox">
+             <img className="imgProduct" src="https://s3.thcdn.com/productimg/0/600/600/71/10269071-1402310186-858014.jpg"/>
+             <h5> Title by Company </h5>
+             <h4> $ 150.00 </h4>
+            </div>
+            <div className="productBox">
+             <img className="imgProduct" src="https://slimages.macysassets.com/is/image/MCY/products/2/optimized/8700082_fpx.tif?op_sharpen=1&wid=500&hei=613&fit=fit,1&$filtersm$"/>
+            <h5> Title by Company </h5>
+             <h4> $ 150.00 </h4>
+            </div>
+            <div className="productBox">
+             <img className="imgProduct" src="http://cdn.shopify.com/s/files/1/0566/6837/products/100026x_grande.jpg?v=1448025125"/>
+             <h5> Title by Company </h5>
+             <h4> $ 150.00 </h4>
+            </div>
+            <div className="productBox">
+             <img className="imgProduct" src= "https://n.nordstrommedia.com/id/625adef3-d2dc-47a2-b40e-8cd6e711b55c.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&quality=70"/>
+             <h5> Title by Company </h5>
+             <h4> $ 150.00 </h4>
+            </div>
+              </div>
             </div>
          </React.Fragment>
       )

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import Carousel from './Carousel';
 import BottomHome from './BottomHome';
+import Footer from './Footer';
 
 class Home extends Component {
   render() {
@@ -12,6 +13,7 @@ class Home extends Component {
           <Nav/>
          <Carousel />
          <BottomHome/>
+         <Footer/>
          </React.Fragment>
       )
   }
