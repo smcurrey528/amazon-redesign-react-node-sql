@@ -6,14 +6,21 @@
 
 .footer {
   border-top: 1px solid rgb(235, 235, 235);
-  padding-top: 10px;
+  padding: 5%;
   display: inline-flex;
   font-family: 'Ubuntu', sans-serif;
 }
 
-.airbnbFooter, .discoverFooter, .hostingFooter {
+.amazonFooter, .discoverFooter, .hostingFooter {
   padding-right: 60px;
    font-family: 'Ubuntu', sans-serif;
+   color: darkgray;
+}
+
+.boldFoot {
+  font-weight: 700;
+  color: black;
+  padding-bottom: 3%;
 }
 
 .lastFoot {
