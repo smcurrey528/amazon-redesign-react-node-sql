@@ -11,7 +11,7 @@ class YourAmazon extends Component {
           <div className="profile">
             <div className="aboutSarah">
 
-              <img className="profpic" src="https://i.imgur.com/FonrfDe.png"/>
+              <img className="profpic" src="https://i.imgur.com/FonrfDe.png" alt="profpic"/>
               <div className="descSarah">
               <h1 className="boldinfo"> Sarah Currey </h1>
               <hr/>

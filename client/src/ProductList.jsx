@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Products from './Products';
-import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import Nav from './Nav';
-import './ProductList.css'
+import './ProductList.css';
+import Footer from './Footer';
 
 
 class ProductList extends Component {
@@ -15,7 +15,7 @@ class ProductList extends Component {
     }
 
  componentDidMount() {
-    axios.get('/listings')
+    axios.get('/products')
       .then(res => {
         this.setState({
           apiDataLoaded: true,
@@ -30,18 +30,18 @@ class ProductList extends Component {
         return (
           <Products
           key={products.id}
-          listings={products}
+          products={products}
           onFaveToggle={ () => this.props.onFaveToggle(products) }
 
   isFave = {() => this.props.products.includes()}/>
         );
       });
-    } else return <div class="load-wrapp">
-            <div class="load-3">
+    } else return <div className="load-wrapp">
+            <div className="load-3">
                 <p>Loading...</p>
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
             </div>
         </div>
   }
@@ -70,7 +70,16 @@ class ProductList extends Component {
     return (
       <React.Fragment>
       <Nav/>
+      <div className="prodBar">
+              <ul className="textUL">
+               <li className="textcat"> Featured </li>
+               <li className="textcat"> Fashion</li>
+               <li className="textcat"> Children </li>
+               <li className="textcat"> Audio </li>
+              </ul>
+       </div>
       <div> {this.renderListings()} </div>
+      <Footer/>
       </React.Fragment>
     )
   }
