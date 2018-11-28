@@ -19,7 +19,6 @@ router.route('/')
 router.route('/:id')
   .put(
     controller.update,
-    controller.updateHost
     )
 
 router.delete('/:id', controller.destroy);

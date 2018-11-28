@@ -1,0 +1,64 @@
+.listings {
+  width: 66%;
+  margin: 6% 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+  background: white !important;
+  border: 1px solid rgb(235, 235, 235);
+}
+
+.card {
+  width: 100% !important;
+}
+
+.demProducts {
+  box-sizing: border-box;
+}
+
+
+
+.secondinfo {
+  grid-column: 3 / 3;
+  grid-row: span 1;
+  border-left: 1px solid rgb(235, 235, 235);
+  padding-left: 20px;
+  padding-top:  20px;
+  }
+
+.pic {
+  outline: 2px solid black;
+  width: 100%;
+  height: 100%;
+  filter: brightness(75%);
+  transition: all .2s ease-in-out;
+}
+
+.pic:hover {
+  filter: brightness(100%);
+  transform: scale(1.1);
+}
+
+.info {
+  margin: 0 7%;
+  grid-column: 2 / 3;
+  grid-row: span 1;
+  text-align: left;
+}
+
+.info > a {
+  margin: 0 25%;
+}
+
+
+
+@media all and (max-width: 910px) {
+
+
+
+  .listings {
+    width: 100%;
+  }
+
+}
+

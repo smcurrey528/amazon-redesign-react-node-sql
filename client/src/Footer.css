@@ -1,0 +1,38 @@
+.englishButton {
+  position: relative;
+  bottom: 0;
+  right: 50;
+}
+
+.footer {
+  border-top: 1px solid rgb(235, 235, 235);
+  padding: 5%;
+  display: inline-flex;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.amazonFooter, .discoverFooter, .hostingFooter {
+  padding-right: 100px;
+   font-family: 'Ubuntu', sans-serif;
+   color: darkgray;
+}
+
+.boldFoot {
+  font-weight: 700;
+  color: black;
+  padding-bottom: 3%;
+}
+
+.lastFoot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: darkgray;
+  padding-bottom: 2%;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+.footLogo {
+  width: 70px;
+  height: 30px;
+}
