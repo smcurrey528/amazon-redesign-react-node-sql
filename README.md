@@ -124,23 +124,22 @@ render the data and pass it as props
 
 | Component    | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------ | :------: |  :-----------: | :------------: | :---------: |
-| Home page    | H | 5hrs | 4hrs |   |
-| Header w/ Links   | H | 4hrs | 2hrs |  |
-| Products Components | H | 4hrs |  | 
-| Shopping Cart | H | 4hrs | 2hrs |  |
+| Home page    | H | 5hrs | 4hrs |  5hrs |
+| Header w/ Links   | H | 4hrs | 2hrs |2hrs  |
+| Products Components | H | 4hrs | 4hrs | 
+| Shopping Cart | H | 4hrs | 3hrs | 3hrs  |
 | Checking out | H | 4hrs |  | 
-| Featured Items| H | 4hrs |  | 
-| Your Amazon| H | 4hrs |  | 
-| ProductList | H | 4hrs |  | 
-| ProductList Sticky Footer | H | 4hrs |  | 
-| ProductList Sticky Nav | H | 4hrs |  | 
-| ReactStrap | H | 4hrs | 2hrs  | 
-| Amazon API | L | 4hrs | |  |
+| Featured Items| H | 4hrs | 4hrs | 
+| Your Amazon| H | 4hrs | 2hrs | 
+| ProductList | H | 4hrs | 4hrs | 
+| ProductList Sticky Footer | H | 4hrs | 1hr | 
+| ProductList Sticky Nav | H | 4hrs | 1hr | 
+| ReactStrap | H | 4hrs | 3hrs  | 
 | Form Component | H | 4hrs |  | |
 | Server Setup | H  | 4hrs|  |  |
-| Basic Styles | H  | 4hrs| 2hrs | |
-| Adv Styles | H  | 4hrs|  |  |
-| Routes | H | 4hrs |  |  |
+| Basic Styles | H  | 4hrs| 4hrs | |
+| Adv Styles | H  | 4hrs| 2hrs |  |
+| Routes | H | 4hrs | 3hrs | 3hrs  |
 | Model | H | 4hrs | 2hrs | 2hrs |
 | Controller | H | 4hrs | 2hrs | 2hrs |
 | DB and Tables | H  | 4hrs |  | 
