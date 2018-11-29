@@ -24,32 +24,22 @@ const Products = (props) => {
 
   return (
    <React.Fragment>
-   <div className="listings">
+   <div className="indieProducts">
     <div className="demProducts">
      <Card >
-        <CardImg width="40%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+        <CardImg width="40%" src={props.products.url} alt="Card image cap"/>
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
+          <CardTitle>{props.products.title} by {props.products.company} </CardTitle>
+          <CardText> {props.products.price}
+          <hr/>
+          <Link to={`/products/${props.products.id}`}>See More...</Link>
+          </CardText>
         </CardBody>
       </Card>
       </div>
-
-      <div className="info">
-      <p> Test Product Listing</p>
-  <UncontrolledCarousel items={items} />
-
-      <Link to={`/products/${props.products.id}`}>Explore Listing</Link>
-
-      </div>
-      <div className="secondinfo">
-      <h6 className="price"> {props.products.price}</h6>
-
       </div>
 
-    </div>
+
     </React.Fragment>
   )
 }

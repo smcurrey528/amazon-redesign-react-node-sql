@@ -1,12 +1,4 @@
-.listings {
-  width: 66%;
-  margin: 6% 0 0 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 10px;
-  background: white !important;
-  border: 1px solid rgb(235, 235, 235);
-}
+
 
 .card {
   width: 100% !important;

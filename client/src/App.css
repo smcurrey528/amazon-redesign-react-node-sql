@@ -3,4 +3,8 @@ body {
   background-color: white !important;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 

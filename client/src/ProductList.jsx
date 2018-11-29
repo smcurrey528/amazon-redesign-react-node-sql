@@ -78,7 +78,9 @@ class ProductList extends Component {
                <li className="textcat"> Audio </li>
               </ul>
        </div>
-      <div> {this.renderListings()} </div>
+      <div className="listings">
+      {this.renderListings()}
+      </div>
       <Footer/>
       </React.Fragment>
     )

@@ -1,1 +1,21 @@
+.singleProduct {
+  background-color: whitesmoke;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 10%;
 
+}
+
+.productBackground {
+  width: 60%;
+  height: 100%;
+  background-color: whitesmoke;
+  margin: 10%;
+
+
+}
+
+.singleImg {
+  width: 50%;
+  margin: 10%;
+}

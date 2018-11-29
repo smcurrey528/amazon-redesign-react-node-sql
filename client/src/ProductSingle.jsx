@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Nav from './Nav';
 import Hello from './Hello';
 import MenuBar from './MenuBar';
+import './ProductSingle.css';
 
 class ProductSingle extends Component {
   constructor(props) {
@@ -32,14 +33,24 @@ class ProductSingle extends Component {
   renderListingsOrLoading() {
     if (this.state.apiDataLoaded) {
       return (
+        <React.Fragment>
         <div className="single-listing">
           <Nav/>
-          <MenuBar/>
-          <Hello/>
-          <h6> Single Product</h6>
-          <Footer/>
+          <div className="singleProduct">
+             <div className="productBackground">
+               <img className="singleImg" src={this.state.products.url} alt={this.state.products.title} />
+               <p> {this.state.products.company} </p>
+               <h2>  {this.state.products.title} </h2>
+               <p> Stars go here </p>
+               <p> Reviews: {this.state.products.review_number} </p>
+               <p> Price: {this.state.products.price} </p>
+             </div>
+          </div>
+
 
         </div>
+         <Footer/>
+         </React.Fragment>
       )
     } else return <p className="loading">Loading...</p>
   }
