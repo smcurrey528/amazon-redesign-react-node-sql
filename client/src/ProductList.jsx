@@ -72,7 +72,7 @@ class ProductList extends Component {
       <Nav/>
       <div className="prodBar">
               <ul className="textUL">
-               <li className="textcat"> Featured </li>
+               <li className="textblack"> Featured </li>
                <li className="textcat"> Fashion</li>
                <li className="textcat"> Children </li>
                <li className="textcat"> Audio </li>

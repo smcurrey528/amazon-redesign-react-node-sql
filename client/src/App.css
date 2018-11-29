@@ -7,4 +7,13 @@ a {
   text-decoration: none !important;
 }
 
+.star-svg{
+  background-color:black;
+}
+.star-svg path{
+  fill: white;
+
+}
+
+
 

@@ -1,21 +1,110 @@
+.single-listing {
+    background-color: whitesmoke;
+   /* padding-top: 5%;*/
+
+}
 .singleProduct {
-  background-color: whitesmoke;
-  width: 100%;
   font-family: 'Ubuntu', sans-serif;
-  padding-bottom: 10%;
+  width: 66%;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5%;
+  padding: 2%;
+  background: white !important;
+  border: 1px solid rgb(235, 235, 235);
 
 }
 
+
 .productBackground {
-  width: 60%;
-  height: 100%;
-  background-color: whitesmoke;
+  width: 100%;
   margin: 10%;
 
 
 }
 
 .singleImg {
-  width: 50%;
+  width: 100%;
   margin: 10%;
+}
+
+.companyName {
+  font-weight: 700;
+  font-size: 100%;
+  color: goldenrod;
+}
+
+.prodName {
+  font-weight: 700;
+  font-size: 160%;
+}
+
+.listButton {
+  margin-top: 5%;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 8%;
+}
+
+.basketButton {
+  background-color: goldenrod;
+  color: white;
+  border-radius: 8%;
+  margin-left: 5%;
+}
+
+.circle {
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.reviewSection {
+    font-family: 'Ubuntu', sans-serif;
+  width: 66%;
+  margin-left: 15%;
+  margin-top: 5%;
+  padding: 2%;
+  background: white !important;
+  border: 1px solid rgb(235, 235, 235);
+}
+
+.star-gold {
+  background-color: goldenrod;
+}
+
+.star-gold path {
+  fill: white;
+}
+
+.reviewone {
+  margin-bottom: 5%;
+}
+
+.titleProducts {
+  font-weight: 700;
+  color: black;
+  font-size: 120%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.reviewPerson {
+  color: darkgray;
+  margin-bottom: 2%;
+}
+
+.reviewButton {
+  background-color: goldenrod;
+  color: white;
+  margin-top: 2%;
+
+}
+
+.reviewSection {
+  margin-bottom: 5%;
+
 }
