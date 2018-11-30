@@ -49,6 +49,7 @@
   border: 1px solid lightgray;
   background-color: white;
   border-radius: 8%;
+  padding: 2%;
 }
 
 .basketButton {
@@ -56,6 +57,7 @@
   color: white;
   border-radius: 8%;
   margin-left: 5%;
+  padding: 2%;
 }
 
 .circle {
@@ -100,9 +102,15 @@
 }
 
 .reviewButton {
-  background-color: goldenrod;
+   margin-left: 1em;
+  background: goldenrod;
+  border: none;
+  padding: 0.5em 2em;
   color: white;
-  margin-top: 2%;
+  cursor: pointer;
+  font-size: 100%;
+  border-radius: 5%;
+  font-family: 'Ubuntu', sans-serif;
 
 }
 

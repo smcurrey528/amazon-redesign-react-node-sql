@@ -9,6 +9,7 @@ class Music extends Component {
     return (
          <React.Fragment>
           <Nav/>
+          <div className="amusic">
           <div className="load-wrapp">
             <div className="load-1">
                 <p>Amazon Music</p>
@@ -17,6 +18,7 @@ class Music extends Component {
                 <div className="line"></div>
             </div>
           </div>
+        </div>
          <Footer/>
          </React.Fragment>
       )

@@ -35,13 +35,9 @@ amazonModels.create = products => {
   return db.one(
     `
     INSERT INTO products
-     (url, url_two, url_three, title, company, review_number, review_one,
-      review_two, review_three, review_titleone, review_titletwo, review_titlethree,
-       amazon_choice,  prime, price, review_personone, review_persontwo, review_personthree)
-     VALUES ($/url/, $/url_two/, $/url_three/, $/title/, $/company/,
-      $/review_number/, $/review_one/, $/review_two/, $/review_three/,
-      $/review_titleone/, $/review_titletwo/, $/review_titlethree/,
-      $/amazon_choice/,  $/prime/, $/price, $/review_personone/, $/review_persontwo/, $/review_personthree/)
+     (url, title, company, price)
+     VALUES ($/url/, $/title/, $/company/,
+       $/price/)
     RETURNING *
   `, products);
 };

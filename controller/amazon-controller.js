@@ -30,32 +30,19 @@ amazonController.show = (req, res) => {
     });
 };
 
-amazonController.create = (req, res, next) => {
-  console.log('REQBODY', req.body)
-  const theData = {
+
+amazonController.create = (req, res) => {
+  Amazon.create({
     url: req.body.url,
-    url_two: req.body.url_two,
-    url_three: req.body.url_three,
     title: req.body.title,
     company: req.body.company,
-    review_number: req.body.review_number,
-    review_one: req.body.review_one,
-    review_two: req.body.review_two,
-    review_three: req.body.review_three,
-    review_titleone: req.body.review_titleone,
-    review_titletwo: req.body.review_titletwo,
-    review_titlethree: req.body.review_titlethree,
-    amazon_choice: req.body.amazon_choice,
-    prime: req.body.prime,
     price: req.body.price,
-    review_personone: req.body.review_personone,
-    review_persontwo: req.body.review_persontwo,
-    review_personthree: req.body.review_personthree
-  }
-  Amazon.create(theData)
+  })
     .then(amazon => {
-      res.locals.data = amazon;
-      next()
+      res.json({
+        message: 'ok',
+        data: amazon,
+      });
     })
     .catch(err => {
       console.log(err);

@@ -42,7 +42,7 @@ class AddReview extends Component {
 
   render() {
     return (
-      <div className="add">
+      <div className="newreview">
         <form onSubmit={(e) => this.handleFormSubmit(e)}>
           <label>
             Review Title
