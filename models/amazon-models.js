@@ -21,13 +21,12 @@ amazonModels.add = products => {
     `
      INSERT INTO products
      (url, url_two, url_three, title, company, review_number, review_one,
-  review_two, review_three, amazon_choice, prime, price, desc_one,
-  desc_two, desc_three, desc_four, product_dimensions, item_weight, shipping_weight, question,
-  answer, cust_imgone, cust_imgtwo, cust_imgthree)
-     VALUES ($/url/, $/url_two/, $/url_three/, $/title/, $/company/, $/review_number/, $/review_one/,
-  $/review_two/, $/review_three/, $/amazon_choice/, $/prime/, $/price/, $/desc_one/,
-  $/desc_two/, $/desc_three/, $/desc_four/, $/product_dimensions/, $/item_weight/, $/shipping_weight/, $/question/,
-  $/answer/, $/cust_imgone/, $/cust_imgtwo/, $/cust_imgthree/)
+      review_two, review_three, review_titleone, review_titletwo, review_titlethree,
+       amazon_choice,  prime, price, review_personone, review_persontwo, review_personthree)
+     VALUES ($/url/, $/url_two/, $/url_three/, $/title/, $/company/,
+      $/review_number/, $/review_one/, $/review_two/, $/review_three/,
+      $/review_titleone/, $/review_titletwo/, $/review_titlethree/,
+      $/amazon_choice/,  $/prime/, $/price, $/review_personone/, $/review_persontwo/, $/review_personthree/)
      RETURNING *
     `, products);
 }
@@ -36,14 +35,9 @@ amazonModels.create = products => {
   return db.one(
     `
     INSERT INTO products
-     (url, url_two, url_three, title, company, review_number, review_one,
-  review_two, review_three, amazon_choice, prime, price, desc_one,
-  desc_two, desc_three, desc_four, product_dimensions, item_weight, shipping_weight, question,
-  answer, cust_imgone, cust_imgtwo, cust_imgthree)
-     VALUES ($/url/, $/url_two/, $/url_three/, $/title/, $/company/, $/review_number/, $/review_one/,
-  $/review_two/, $/review_three/, $/amazon_choice/, $/prime/, $/price/, $/desc_one/,
-  $/desc_two/, $/desc_three/, $/desc_four/, $/product_dimensions/, $/item_weight/, $/shipping_weight/, $/question/,
-  $/answer/, $/cust_imgone/, $/cust_imgtwo/, $/cust_imgthree/)
+     (url, title, company, price)
+     VALUES ($/url/, $/title/, $/company/,
+       $/price/)
     RETURNING *
   `, products);
 };
@@ -61,28 +55,22 @@ amazonModels.update = (products, id) => {
       review_one = $7,
       review_two = $8,
       review_three = $9,
-      amazon_choice = $10,
-      prime = $11,
-      price = $12,
-      desc_one = $13,
-      desc_two = $14,
-      desc_three = $15,
-      desc_four = $16,
-      product_dimensions = $17,
-      item_weight = $18,
-      shipping_weight = $19,
-      question = $20,
-      answer = $21,
-      cust_imgone = $22,
-      cust_imgtwo = $23,
-      cust_imgthree= $24
-    WHERE id = $25
+      review_titleone = $10,
+      review_titletwo = $11,
+      review_three = $12,
+      amazon_choice = $13,
+      prime = $14,
+      price = $15,
+      review_personone = $16,
+      review_persontwo = $17,
+      review_personthree = $18,
+    WHERE id = $19
     RETURNING *
   `,
-  [products.url, products.url_two, products.url_three, products.title, products.company, products.review_number, products.review_one,
-  products.review_two, products.review_three, products.amazon_choice, products.prime, products.price, products.desc_one,
-  products.desc_two, products.desc_three, products.desc_four, products.product_dimensions, products.item_weight, products.shipping_weight, products.question,
-  products.answer, products.cust_imgone, products.cust_imgtwo, products.cust_imgthree, id],
+  [products.url, products.url_two, products.url_three, products.title, products.company, products.review_number,
+  products.review_one, products.review_two, products.review_three, products.review_titleone,
+  products.review_titletwo, products.review_titlethree, products.amazon_choice,  products.prime,
+   products.price, products.review_personone, products.review_persontwo, products.review_personthree, id],
   );
 };
 

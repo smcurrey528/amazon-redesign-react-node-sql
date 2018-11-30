@@ -4,10 +4,10 @@ const amazonController = {};
 
 amazonController.index = (req, res) => {
   Amazon.findAll()
-    .then(aimazon => {
+    .then(amazon => {
       res.json({
         message: 'ok',
-        data: aimazon,
+        data: amazon,
       });
     })
     .catch(err => {
@@ -30,38 +30,19 @@ amazonController.show = (req, res) => {
     });
 };
 
-amazonController.create = (req, res, next) => {
-  console.log('REQBODY', req.body)
-  const theData = {
+
+amazonController.create = (req, res) => {
+  Amazon.create({
     url: req.body.url,
-    url_two: req.body.url_two,
-    url_three: req.body.url_three,
     title: req.body.title,
     company: req.body.company,
-    review_number: req.body.review_number,
-    review_one: req.body.review_one,
-    review_two: req.body.review_two,
-    review_three: req.body.review_three,
-    amazon_choice: req.body.amazon_choice,
-    prime: req.body.prime,
     price: req.body.price,
-    desc_one: req.body.desc_one,
-    desc_two: req.body.desc_two,
-    desc_three: req.body.desc_three,
-    desc_four: req.body.desc_four,
-    product_dimensions: req.body.product_dimensions,
-    item_weight: req.body.item_weight,
-    shipping_weight: req.body.shipping_weight,
-    question: req.body.question,
-    answer: req.body.answer,
-    cust_imgone: req.body.cust_imgone,
-    cust_imgtwo: req.body.cust_imgtwo,
-    cust_imgthree: req.body.cust_imgthree
-  }
-  Amazon.create(theData)
+  })
     .then(amazon => {
-      res.locals.data = amazon;
-      next()
+      res.json({
+        message: 'ok',
+        data: amazon,
+      });
     })
     .catch(err => {
       console.log(err);
@@ -76,16 +57,19 @@ amazonController.add = (req, res) => {
     url_three: req.body.url_three,
     title: req.body.title,
     company: req.body.company,
+    review_number: req.body.review_number,
+    review_one: req.body.review_one,
+    review_two: req.body.review_two,
+    review_three: req.body.review_three,
+    review_titleone: req.body.review_titleone,
+    review_titletwo: req.body.review_titletwo,
+    review_titlethree: req.body.review_titlethree,
     amazon_choice: req.body.amazon_choice,
     prime: req.body.prime,
     price: req.body.price,
-    desc_one: req.body.desc_one,
-    desc_two: req.body.desc_two,
-    desc_three: req.body.desc_three,
-    desc_four: req.body.desc_four,
-    product_dimensions: req.body.product_dimensions,
-    item_weight: req.body.item_weight,
-    shipping_weight: req.body.shipping_weight
+    review_personone: req.body.review_personone,
+    review_persontwo: req.body.review_persontwo,
+    review_personthree: req.body.review_personthree
   })
     .then(amazon => {
       res.json({
@@ -103,7 +87,7 @@ amazonController.add = (req, res) => {
 amazonController.update = (req, res, next) => {
   Amazon.update(
     {
-       url: req.body.url,
+    url: req.body.url,
     url_two: req.body.url_two,
     url_three: req.body.url_three,
     title: req.body.title,
@@ -112,21 +96,15 @@ amazonController.update = (req, res, next) => {
     review_one: req.body.review_one,
     review_two: req.body.review_two,
     review_three: req.body.review_three,
+    review_titleone: req.body.review_titleone,
+    review_titletwo: req.body.review_titletwo,
+    review_titlethree: req.body.review_titlethree,
     amazon_choice: req.body.amazon_choice,
     prime: req.body.prime,
     price: req.body.price,
-    desc_one: req.body.desc_one,
-    desc_two: req.body.desc_two,
-    desc_three: req.body.desc_three,
-    desc_four: req.body.desc_four,
-    product_dimensions: req.body.product_dimensions,
-    item_weight: req.body.item_weight,
-    shipping_weight: req.body.shipping_weight,
-    question: req.body.question,
-    answer: req.body.answer,
-    cust_imgone: req.body.cust_imgone,
-    cust_imgtwo: req.body.cust_imgtwo,
-    cust_imgthree: req.body.cust_imgthree
+    review_personone: req.body.review_personone,
+    review_persontwo: req.body.review_persontwo,
+    review_personthree: req.body.review_personthree
     },
     req.params.id
     )

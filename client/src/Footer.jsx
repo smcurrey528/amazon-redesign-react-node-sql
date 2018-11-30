@@ -4,7 +4,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div>
+    <div className="fullfooter">
         <footer>
         <div className="footer">
             <div className="amazonFooter">

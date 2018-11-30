@@ -20,7 +20,7 @@ class BottomHome extends Component {
            </div>
            <div className="categories">
               <ul className="textUL">
-               <li className="textcat"> Featured </li>
+               <li className="textblack"> Featured </li>
                <li className="textcat"> Fashion</li>
                <li className="textcat"> Children </li>
                <li className="textcat"> Audio </li>
@@ -62,7 +62,7 @@ class BottomHome extends Component {
            </div>
              <div className="categories">
               <ul className="textUL">
-               <li className="textcat"> Featured </li>
+               <li className="textblack"> Featured </li>
                <li className="textcat"> Fashion</li>
                <li className="textcat"> Food  </li>
                <li className="textcat"> Decoration </li>

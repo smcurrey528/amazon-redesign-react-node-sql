@@ -72,13 +72,15 @@ class ProductList extends Component {
       <Nav/>
       <div className="prodBar">
               <ul className="textUL">
-               <li className="textcat"> Featured </li>
+               <li className="textblack"> Featured </li>
                <li className="textcat"> Fashion</li>
                <li className="textcat"> Children </li>
                <li className="textcat"> Audio </li>
               </ul>
        </div>
-      <div> {this.renderListings()} </div>
+      <div className="listings">
+      {this.renderListings()}
+      </div>
       <Footer/>
       </React.Fragment>
     )

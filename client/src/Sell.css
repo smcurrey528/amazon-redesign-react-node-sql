@@ -1,0 +1,95 @@
+.whitesmoke {
+  background-color: whitesmoke;
+
+}
+.add {
+  background-color: white;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  width: 30%;
+  padding: 5%;
+  box-sizing: border-box;
+  margin-left: 30%;
+  text-align: center;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 5%;
+  border: 1px solid #000;
+  margin-top: 5%;
+}
+
+.input {
+  border: 0;
+  border-bottom: 3px solid #eee;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.7em;
+  margin: 20px 0;
+  padding: 5px;
+  display: block;
+  width: 100%;
+  border-bottom: 3px solid #000;
+  outline: 0;
+  text-align: center;
+  cursor: text;
+}
+
+.saradd {
+  font-weight: 700;
+  font-size: 160%;
+  margin-bottom: 5%;
+}
+
+.dthreesection {
+border: 1px solid;
+margin: 5%;
+}
+
+.sellingstats {
+  margin-left: 30%;
+  margin-bottom: 5%;
+}
+
+.d3-wrap {
+  margin: 30%;
+}
+
+.d3 {
+  max-width: 70% !important;
+  margin-left: 15% !important;
+}
+
+.d3sell {
+  text-align: center;
+  padding-top: 5%;
+  font-weight: 700;
+  font-size: 200%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.c3-event-rect {
+  background-color: goldenrod !important;
+}
+
+.c3-chart-arcs-title {
+  background-color: goldenrod !important;
+  color: white !important;
+}
+
+.d3button {
+  margin-left: 1em;
+  background: goldenrod;
+  border: none;
+  padding: 0.5em 2em;
+  color: white;
+  cursor: pointer;
+  font-size: 100%;
+  border-radius: 5%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#chart {
+  background: #fff;
+  width: 90%;
+  margin: 1em auto;
+}

@@ -60,6 +60,18 @@
   color: darkgray;
 }
 
+.textblack {
+  font-family: 'Ubuntu', sans-serif;
+  list-style: none;
+  font-size: 15px;
+  text-align: center;
+  padding: 1%;
+  margin: 3%;
+  align-content: center;
+  color: black;
+  border-bottom: 3px solid goldenrod;
+}
+
 .textcat:hover {
   color: black;
   border-bottom: 3px solid goldenrod;
