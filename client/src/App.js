@@ -25,7 +25,7 @@ class App extends Component {
             <Route exact path="/your-amazon" component={YourAmazon} />
             <Route exact path="/sell" component={Sell} />
             <Route exact path="/music" component={Music} />
-            <Route exact path="to/my/checkout" component={Checkout} />
+            <Route exact path="/checkout" component={Checkout} />
           </Switch>
          </React.Fragment>
       </Router>

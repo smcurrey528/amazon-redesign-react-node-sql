@@ -45,7 +45,7 @@ class ShoppingCart extends Component {
       },
       propertiesToShowInCart: ['color'],
       prices: { GBP: 70, EUR: 80, USD: 90 },
-      currency: 'GBP',
+      currency: 'USD',
       imageSrc: '1-483x321.jpeg',
     },
     getProductLocalization:
@@ -122,7 +122,7 @@ class ShoppingCart extends Component {
       <CheckoutButtonComponent
         grandTotal={500}
         hidden={false}
-        checkoutURL="/to/my/checkout"
+        checkoutURL="/checkout"
         currency="USD"
         getLocalization={getCheckoutButtonLocalization}
       />;
@@ -169,7 +169,7 @@ class ShoppingCart extends Component {
           getLocalization={
             getCartLocalization
           }
-          currency="GBP"
+          currency="USD"
           onRemoveProduct={
             removeProduct
             // Remove something
