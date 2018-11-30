@@ -35,11 +35,13 @@
   font-weight: 700;
   font-size: 100%;
   color: goldenrod;
+  margin-bottom: 3%;
 }
 
 .prodName {
   font-weight: 700;
   font-size: 160%;
+  margin-bottom: 3%;
 }
 
 .listButton {
@@ -107,4 +109,14 @@
 .reviewSection {
   margin-bottom: 5%;
 
+}
+
+.size {
+  width: 30%;
+  margin-top: 5%;
+}
+
+.delivery {
+  width: 20%;
+  margin-top: 5%;
 }

@@ -6,6 +6,7 @@ import Nav from './Nav';
 import Hello from './Hello';
 import MenuBar from './MenuBar';
 import './ProductSingle.css';
+import AddReview from './AddReview';
 
 class ProductSingle extends Component {
   constructor(props) {
@@ -65,12 +66,10 @@ class ProductSingle extends Component {
                   l2.632-5.334l2.633,5.334l5.885,0.855l-4.258,4.152L15.422,18.129z"/>
              </svg>
                </div>
-               <div className="size">
-                 Size
-               </div>
-               <div className="delivery">
-                Delivery
-               </div>
+               <img className="size"
+                 src={this.state.products.amazon_choice} />
+               <img className="delivery"
+                src={this.state.products.prime} />
                <div className="prodPrice"> Price
                  {this.state.products.price}
                </div>
@@ -103,6 +102,7 @@ class ProductSingle extends Component {
                    <p> {this.state.products.review_number} reviews </p>
                    <p> 5 out of 5 stars </p>
                    <button className="reviewButton"> Write your review </button>
+                   <AddReview/>
                </div>
                 <div className="rightReview">
 

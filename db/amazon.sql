@@ -28,7 +28,7 @@ INSERT INTO products (url, url_two, url_three, title, company, review_number, re
   '196',
   'I love strutting in my red stilettos down the streets in Norway. It really makes a statement in -5 celsius. Even when I am out late hitting the town, these shoes always get me home',
   'These shoes are sickkkkkk. When I am on chat roulette, I love to show my heels off to my new friends.',
-  'LouBoutin is the perfect blend of classy, yet alluring. When I am playing a challenging game of chess, these shoes give me the confidence to think three steps ahead. #checkmate' ,
+  'LouBoutin is the perfect blend of classy, yet alluring. When I am playing a challenging game of chess with a nice glass of Bombay Sapphire, these shoes give me the confidence to think three steps ahead. #checkmate' ,
   'Perfect shoes',
   'How to make a statement 101',
   'Amazing',
