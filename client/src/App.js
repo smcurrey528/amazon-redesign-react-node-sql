@@ -12,6 +12,7 @@ import YourAmazon from './YourAmazon';
 import Sell from './Sell';
 import Music from './Music';
 import Video from './Video';
+import YourFriends from './YourFriends';
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
             <Route exact path="/sell" component={Sell} />
             <Route exact path="/music" component={Music} />
             <Route exact path="/video" component={Video} />
+            <Route exact path="/friends" component={YourFriends} />
             <Route exact path="/checkout" component={Checkout} />
           </Switch>
          </React.Fragment>
