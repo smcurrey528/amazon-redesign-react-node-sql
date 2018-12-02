@@ -1,0 +1,47 @@
+.recs {
+  width: 80%;
+}
+
+.recentviews {
+  width: 60%;
+  padding-top: 5%;
+}
+
+.casper {
+  background-color: white;
+  padding: 2%;
+  margin-right: 30%;
+  text-align: center;
+}
+
+.confirmed {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+
+}
+
+.thanks {
+  font-weight: 700;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  font-size: 160%;
+  margin-left: 20%;
+}
+
+.check {
+  width: 40%;
+  margin-left: 25%;
+}
+
+.eastside {
+  color: gray;
+  padding-left: 6%;
+  padding-bottom: 2%;
+  margin-left: 8%;
+}
+
+.confirmProduct {
+  display: inline-flex;
+
+}
