@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
-import './YourAmazon.css'
+import './YourAmazon.css';
+import Social from './Social';
 
 class YourAmazon extends Component {
   render() {
@@ -28,11 +29,12 @@ class YourAmazon extends Component {
           </div>
               <div className="categories">
               <ul className="textUL">
-               <li className="textcat"> Social </li>
+               <li className="textblack"> Social </li>
                <li className="textcat"> Purchases</li>
                <li className="textcat"> Reviews </li>
               </ul>
            </div>
+           <Social/>
           </div>
          <Footer/>
          </React.Fragment>

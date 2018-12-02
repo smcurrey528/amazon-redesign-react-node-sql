@@ -18,12 +18,6 @@ class Music extends Component {
                 <div className="line"></div>
             </div>
           </div>
-          <div>
-           <h1>Jam out to Sarazon's Theme Song below: </h1>
-           <audio controls>
-            <source src="music.mp3" type="audio/mpeg"/>
-          </audio>
-          </div>
         </div>
          <Footer/>
          </React.Fragment>
