@@ -1,0 +1,58 @@
+.checkout {
+  background-color: whitesmoke;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 5%;
+}
+
+.address {
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 5%;
+  padding-left: 20%
+}
+
+.infoadd {
+  display: inline-flex;
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
+
+.boxwhite {
+  background-color: white;
+  padding: 2%;
+  margin-right: 30%;
+}
+
+.yourAdd {
+  font-weight: 700;
+
+}
+
+.nameAdd {
+  padding-left: 5%;
+  width: 500px;
+}
+
+.receiver{
+  font-weight: 700;
+}
+
+.newAddress {
+  font-weight: 700;
+  color: goldenrod;
+}
+
+.plus {
+  padding-bottom: 2%;
+  padding-left: 3%;
+}
+
+.use {
+  padding: 2%;
+  background-color: goldenrod;
+  color: white;
+  font-weight: 700;
+  border-radius: 5%;
+  margin-left: 38%;
+}
