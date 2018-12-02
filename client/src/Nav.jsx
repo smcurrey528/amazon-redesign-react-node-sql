@@ -66,15 +66,12 @@ class Nav extends Component {
               <DropdownMenu>
                 <DropdownItem><Link to='/'>Home</Link></DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem>Amazon Music</DropdownItem>
-                <DropdownItem>Prime Video</DropdownItem>
-                <DropdownItem>Fire TV</DropdownItem>
+                <DropdownItem><Link to='/music'>Amazon Music</Link></DropdownItem>
+                <DropdownItem><Link to='/video'>Prime Video</Link></DropdownItem>
+                <DropdownItem><Link to='/products'> Today's Deals </Link></DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem><Link to='/add'>Amazon Fresh</Link></DropdownItem>
-                <DropdownItem>Sign Up</DropdownItem>
-                <DropdownItem>Login</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Help</DropdownItem>
+                <DropdownItem><Link to='your-amazon'> Your Amazon </Link></DropdownItem>
+                <DropdownItem><Link to='/sell'> Sell </Link></DropdownItem>
               </DropdownMenu>
             </Dropdown>
             <form className="nav-form" onSubmit={(e) => this.handleFormSubmit(e)}>
