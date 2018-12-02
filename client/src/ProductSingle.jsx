@@ -7,6 +7,7 @@ import Hello from './Hello';
 import MenuBar from './MenuBar';
 import './ProductSingle.css';
 import AddReview from './AddReview';
+import CartSummary from './CartSummary';
 
 class ProductSingle extends Component {
   constructor(props) {
@@ -14,6 +15,8 @@ class ProductSingle extends Component {
     this.state = {
       products: null,
       apiDataLoaded: false,
+      items : this.props.items,
+      cartQty : 0
 
     }
   }
@@ -29,7 +32,11 @@ class ProductSingle extends Component {
       }).catch(err => console.log(err));
 }
 
-
+ handleAdd() {
+    this.setState({
+      cartQty:this.state.cartQty+1
+    });
+  };
 
 
 
@@ -74,7 +81,11 @@ class ProductSingle extends Component {
                  {this.state.products.price}
                </div>
               <button className="listButton">  Add to List </button>
-              <button className="basketButton"> Add to Basket </button>
+              <button className="basketButton"
+                type="button"
+                onClick={this.handleAdd.bind(this)}
+              > Add to Basket </button>
+              <CartSummary cartQty={this.state.cartQty} />
              </div>
           </div>
             <div className="reviewSection">
