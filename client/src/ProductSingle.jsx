@@ -70,7 +70,7 @@ class ProductSingle extends Component {
                  src={this.state.products.amazon_choice} />
                <img className="delivery"
                 src={this.state.products.prime} />
-               <div className="prodPrice"> Price
+               <div className="prodPrice">
                  {this.state.products.price}
                </div>
               <button className="listButton">  Add to List </button>
@@ -101,8 +101,7 @@ class ProductSingle extends Component {
              </svg>
                    <p> {this.state.products.review_number} reviews </p>
                    <p> 5 out of 5 stars </p>
-                   <button className="reviewButton"> Write your review </button>
-                   <AddReview/>
+
                </div>
                 <div className="rightReview">
 
