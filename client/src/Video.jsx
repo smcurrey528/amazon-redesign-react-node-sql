@@ -10,7 +10,7 @@ class Video extends Component {
       <React.Fragment>
       <Nav/>
       <div>
-        <h1 className='coming'> The Marvelous Mrs.Maisel Season 2: Coming December 5th! </h1>
+        <h1 className='coming'> The Marvelous Mrs. Maisel Season 2: Coming December 5th! </h1>
         <img className='maisel' src='https://i.ytimg.com/vi/76bH1b9XreE/maxresdefault.jpg' alt='marvelous'/>
       </div>
       <Footer/>
