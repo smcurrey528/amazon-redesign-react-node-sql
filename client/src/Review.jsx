@@ -2,10 +2,10 @@ import React, {Component} from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
-import './Payment.css';
+import './Review.css';
 
 
-class Payment extends Component {
+class Review extends Component {
   render() {
     return (
          <React.Fragment>
@@ -16,35 +16,33 @@ class Payment extends Component {
              <img src='https://i.imgur.com/JlRpJ14.png'/>
              <p className='westside'> Apartment 5A, 129 West 81st Street, New York, New York </p>
              </div>
-             <img src='https://i.imgur.com/rFTOXkH.png'/>
+             <img src='https://i.imgur.com/6ZDzf1W.png'/>
+             <p className='westside'> Visa - Josie Peralta XXXX XXXX XXXX 1267  </p>
+             <img src='https://i.imgur.com/t3WSQCv.png'/>
              <div className='boxwhite'>
-               <h1 className='yourAdd'> Your Credit Cards </h1>
+               <h1 className='yourAdd'> Your Order </h1>
                <hr/>
                <div className='infoadd'>
-                <img src='https://i.imgur.com/qlcsvcP.png'/>
-                <img src='https://i.imgur.com/pYvSpq1.png'/>
+                <img src='https://i.imgur.com/8rJTKO7.png'/>
                  <div className='nameAdd'>
-                  <h1 className='receiver'> Josie Peralta </h1>
-                  <p className='ccnum'> XXXX XXXX XXXX 1267</p>
+                  <h1 className='receiver'> Alminette Pointy Toe Pump </h1>
+                  <p className='ccnum'> Red- Size 6</p>
                  </div>
                </div>
-               <div className='infoadd'>
-                <img src='https://i.imgur.com/ziSF0FH.png'/>
-                <img src='https://i.imgur.com/HLoM51j.png'/>
+               <div className='primedelivery'>
                  <div className='nameAdd'>
-                  <h1 className='receiver'> Sarah Currey </h1>
-                  <p className='ccnum'> XXXX XXXX XXXX 0528</p>
+                  <h1 className='receiver'> Prime Delievery </h1>
+                  <p className='ccnum'> Get it by Tuesday 4th December </p>
 
                  </div>
                </div>
-               <div className='infoadd'>
-                <img className='plus' src='https://i.imgur.com/deABWat.png'/>
+               <div className='primetotal'>
                  <div className='nameAdd'>
-                  <h1 className='newAddress'> Add a new credit card </h1>
+                  <h1 className='newAddress'> Total:  $675.00 </h1>
                  </div>
                </div>
                <hr/>
-               <Link to='/review'><button className='use'> Use this credit card </button></Link>
+               <button className='use'> Buy now </button>
            </div>
           <img src='https://i.imgur.com/kvHALSV.png'/>
       </div>
@@ -56,5 +54,4 @@ class Payment extends Component {
   }
 }
 
-export default Payment;
-
+export default Review;
