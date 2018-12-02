@@ -9,16 +9,17 @@ import 'font-awesome/css/font-awesome.min.css';
 import Nav from './Nav';
 import './ShoppingCart.css';
 import {AppProvider, Banner} from '@shopify/polaris';
+import Footer from './Footer';
 
 const { getDefaultLocalization } = cartLocalization;
 
 
-const iPadCaseLocalization = {
+const itemLocalization = {
   color: 'Color',
-  iPadCase: 'iPad case',
+  Shoes: 'Alminette Pointy Toe Pump',
   red: 'Red',
-  green: 'Green',
-  yellow: 'Yellow',
+  black: 'Black',
+  blue: 'Royal Blue',
   GBP: '£',
   EUR: '€',
   USD: '$',
@@ -30,21 +31,21 @@ class ShoppingCart extends Component {
   state = {
     products: {},
     product: {
-      name: 'iPadCase',
-      id: 'ipad-case',
-      path: '/shop/ipad-case/',
+      name: 'Alminette Pointy Toe Pump',
+      id: 'Alminette Pointy Toe Pump',
+      path: '/shop/Alminette Pointy Toe Pump/',
       properties: {
-        color: ['red', 'green', {
+        color: ['red', 'black', {
           additionalCost: {
             GBP: 1,
             EUR: 2,
-            USD: 3.50,
+            USD: 90.50,
           },
-          value: 'yellow',
+          value: 'blue',
         }],
       },
       propertiesToShowInCart: ['color'],
-      prices: { GBP: 70, EUR: 80, USD: 90 },
+      prices: { GBP: 70, EUR: 80, USD: 675 },
       currency: 'USD',
       imageSrc: '1-483x321.jpeg',
     },
@@ -53,20 +54,20 @@ class ShoppingCart extends Component {
         'product',
         'en',
         {
-          ...iPadCaseLocalization
+          ...itemLocalization
         }
       ),
     getCheckoutButtonLocalization:
       getDefaultLocalization(
         'checkoutButton',
         'en',
-        iPadCaseLocalization,
+        itemLocalization,
       ),
     getCartLocalization:
       getDefaultLocalization(
         'cart',
         'en',
-        iPadCaseLocalization
+        itemLocalization
       )
   };
 
@@ -120,7 +121,7 @@ class ShoppingCart extends Component {
 
     const checkoutButtonElement =
       <CheckoutButtonComponent
-        grandTotal={500}
+        grandTotal={675}
         hidden={false}
         checkoutURL="/checkout"
         currency="USD"
@@ -142,9 +143,10 @@ class ShoppingCart extends Component {
 </Banner>
 </AppProvider>
       <div className="addtocart">
+       <img className='cartshoe' src='https://n.nordstrommedia.com/id/5f61e17a-f79c-498e-983c-583a94d451da.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838&quality=70' />
         <ProductComponent
           {...product}
-          checkoutButton={checkoutButtonElement}
+
           onAddProduct={
             addProduct
             // Help product to get into the cart
@@ -183,6 +185,7 @@ class ShoppingCart extends Component {
           getLocalization={getCartLocalization}
         />
       </div>
+      <Footer/>
       </div>
     );
   }

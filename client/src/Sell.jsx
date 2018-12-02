@@ -8,6 +8,7 @@ import D3 from './D3';
 import * as d3 from "d3";
 import * as c3 from "c3";
 
+
 const columns = [
   ['Your Avg. Products Sold', 200, 400, 100],
   ['Other Vendors Avg.', 250, 300, 150]
@@ -141,6 +142,7 @@ class Sell extends Component {
           : ''}
       </div>
       </div>
+
       <Footer/>
       </React.Fragment>
     );
