@@ -9,7 +9,6 @@ class MenuBar extends Component {
          <li className="menuli"><Link to="/your-amazon"> Your Amazon </Link></li>
          <li className="menuli"> Your Friends</li>
          <li className="menuli"><Link to="/products"> Today's Deal</Link></li>
-         <li className="menuli"> Gift Cards </li>
          <li className="menuli"><Link to="/sell"> Sell</Link> </li>
          <li className="menuli"> Help</li>
         </ul>
