@@ -42,7 +42,7 @@ class Review extends Component {
                  </div>
                </div>
                <hr/>
-               <button className='use'> Buy now </button>
+               <Link to='/confirm'><button className='use'> Buy now </button></Link>
            </div>
           <img src='https://i.imgur.com/kvHALSV.png'/>
       </div>
