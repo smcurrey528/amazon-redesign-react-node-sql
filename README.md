@@ -23,16 +23,21 @@ The full-stack web application will include the Amazon's home page which will in
 |Nov 23rd | Thanksgiving  | Complete
 |Nov 24th| MVP | Complete
 |Nov 25th| MVP | Complete
-|Nov 26th| MVP| Incomplete
-|Nov 27th| MVP | Incomplete
-|Nov 28th| Post-MVP| Incomplete
-|Nov 29th| Post-MVP | Incomplete
-|Nov 30th| Post-MVP | Incomplete
-|Dec 1st| Post-MVP | Incomplete
-|Dec 2nd| Finalize and Deploy | Incomplete
-|Dec 3rd| Present | Incomplete
+|Nov 26th| MVP| Complete
+|Nov 27th| MVP | Complete
+|Nov 28th| Post-MVP| Complete
+|Nov 29th| Post-MVP | Complete
+|Nov 30th| Post-MVP | Complete
+|Dec 1st| Post-MVP | Complete
+|Dec 2nd| Finalize and Deploy | Complete
+|Dec 3rd| Present | Complete
 
-
+## Style Guide
+-Create a website that strips away clutter and unnecessary information and uses an minimalist and intuititve design.
+-Colors: Black, white, whitesmoke, golden rod, gray.
+-Font: 'Ubuntu', sans-serif; Closest font to Amazon's customized font and created by the same design company. 
+-Font-Weights: 400, 700
+-Less is more
 
 ## Wireframes
 
@@ -128,26 +133,25 @@ render the data and pass it as props
 | Header w/ Links   | H | 4hrs | 2hrs |2hrs  |
 | Products Components | H | 4hrs | 4hrs | 
 | Shopping Cart | H | 4hrs | 3hrs | 3hrs  |
-| Checking out | H | 4hrs |  | 
-| Featured Items| H | 4hrs | 4hrs | 
-| Your Amazon| H | 4hrs | 2hrs | 
-| ProductList | H | 4hrs | 4hrs | 
-| ProductList Sticky Footer | H | 4hrs | 1hr | 
-| ProductList Sticky Nav | H | 4hrs | 1hr | 
-| ReactStrap | H | 4hrs | 3hrs  | 
-| Form Component | H | 4hrs |  | |
-| Server Setup | H  | 4hrs|  |  |
-| Basic Styles | H  | 4hrs| 4hrs | |
-| Adv Styles | H  | 4hrs| 2hrs |  |
+| Checking out | H | 4hrs | 5hrs | 5hrs
+| Featured Items| H | 4hrs | 4hrs | 4hrs
+| Your Amazon| H | 4hrs | 2hrs | 2hrs
+| ProductList | H | 4hrs | 4hrs | 4hrs
+| ProductList Sticky Footer | H | 4hrs | 1hr | 1hr
+| ProductList Sticky Nav | H | 4hrs | 1hr | 1hr
+| ReactStrap | H | 4hrs | 3hrs  |  3hrs
+| Form Component | H | 4hrs | 3hrs | 3hrs|
+| Server Setup | H  | 4hrs|4hrs  | 4hrs |
+| Basic Styles | H  | 4hrs| 4hrs | 4hrs|
+| Adv Styles | H  | 4hrs| 2hrs | 2hrs |
 | Routes | H | 4hrs | 3hrs | 3hrs  |
 | Model | H | 4hrs | 2hrs | 2hrs |
 | Controller | H | 4hrs | 2hrs | 2hrs |
-| DB and Tables | H  | 4hrs |  | 
-| Shopify | M  | 4hrs |  3hrs |  
-| E-commerce  | M  | 4hrs |   |  
-| Data Creation  | H | 4hrs |   | 
-| Login| L | 4hrs |  | 
-| Project Management | H | 4hrs | 1hr | 
+| DB and Tables | H  | 4hrs |4hrs   | 4hrs 
+| Shopify | M  | 4hrs |  3hrs |  3hrs
+| E-commerce Add-ons  | M  | 4hrs | 4hrs  |  4hrs
+| Data Creation  | H | 4hrs | 4hrs  | 4hrs
+| Project Management | H | 4hrs | 3hr | 3hr
 
 
 
