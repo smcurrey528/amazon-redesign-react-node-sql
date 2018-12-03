@@ -11,6 +11,10 @@
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
      "heroku-postbuild": "npm install && cd client && npm install --only-dev && npm install && npm run build"
   },
+  "engines": {
+    "node": "10.10.0",
+    "npm": "6.4.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://git.generalassemb.ly/smcurrey528/finalproject.git"
