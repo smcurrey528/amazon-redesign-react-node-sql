@@ -38,6 +38,8 @@ The full-stack web application will include the Amazon's home page which will in
 -Font: 'Ubuntu', sans-serif; Closest font to Amazon's customized font and created by the same design company. 
 -Font-Weights: 400, 700
 -Less is more
+-ClassNames only for CSS
+-Reactstrap, D3, C3
 
 ## Wireframes
 
